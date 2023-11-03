@@ -1,0 +1,36 @@
+body {
+    background-color: darkred;
+    font: 16px;
+    font-family: Arial;
+    padding: 2em;
+    margin: 0;
+    background: 222;
+}
+
+img {
+    border: 1px solid black;
+}
+
+form {
+    position: relative;
+    width: 1200px;
+    height: 498px;
+    margin: auto;
+    font-family: Arial;
+}
+
+label {
+    color: antiquewhite;
+    font: 0, 8em "typewriter",
+        sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+h3 {
+    text-align: center;
+    color: antiquewhite
+}

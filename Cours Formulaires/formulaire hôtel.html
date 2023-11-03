@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire hôtel</title>
+    <link rel="stylesheet" href="./Formulairehôtel.css">
+</head>
+
+
+<body>
+
+    <main>
+        <header> 
+    <img src="./Images/Hotels.com-Symbole.jpg" width="170" height="90" id="position">
+    <h2>Votre réservation d'hôtel</h2>
+    <h3>* champs obligatoires</h3>
+</header>
+
+    <hr>
+   
+    <br>
+
+    <section>
+    <form action=# method="get">
+
+        <label for="Nom">Votre nom*
+            <br>
+            <input type="text" placeholder="nom de famille" name="Nom" required>
+        </label>
+
+        <br>
+        <br>
+        <label for="Prénom">Votre Prénom*
+            <br>
+            <input type="text" placeholder="prénom" name="prénom" required>
+
+            <br>
+            <br>
+
+            <label for="Tèl">Votre numéro de téléphone*
+                <br>
+                <input type="tel" placeholder="0656745789" name="tel" maxlength="10">
+            </label>
+
+            <br>
+            <br>
+
+            <label for="Mail">Adresse E-mail*
+                <br>
+                <input type="email" name="email" required>
+            </label>
+            <br>
+            <br>
+
+            <label for="Ville">Sélectionner la Ville
+                <br>
+                <select name="Ville">
+                    <option value="Lille">Lille</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Bordeaux">Bordeaux</option>
+                    <option value="Marseille">Marseille</option>
+                    <option value="Nantes">Nantes</option>
+                    <option value="Lyon">Lyon</option>
+                    <option value="La Rochelle">La Rochelle</option>
+                    <option value="Poitiers">Poitiers</option>
+                    <option value="Toulouse">Toulouse</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label for="Date">Date D'arrivée
+                <br>
+                <input type="date" name="Date" min="2023-10-31">
+            </label>
+            <br><br>
+            <label for="Nombre">Nombres de Personnes*
+                <br>
+                <input type="number" name="NBPersonnes" required min="1" max="20">
+            </label>
+            <br>
+            <br>
+
+            <label for="Options">Vos Options
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="Options">Climatisation
+            </label>
+            <label><input type="checkbox" name="Options">Mini bar</label>
+            <label><input type="checkbox" name="Options">Jacuzzi
+            </label>
+            <br>
+
+            <label for="Commentaire">
+                <br>
+                <textarea name="Commentaire" cols="20" rows="5" placeholder="Ajouter un Commentaire"></textarea>
+            </label>
+            <br><br>
+
+            <label for="CGV">Acceptation des Conditions Générales de Ventes (CGV)*
+                <br>
+            </label>
+            <label>
+                <input type="radio" name="CGV">J'accepte
+            </label>
+            <label><input type="radio" name="CGV">Je refuse
+            </label>
+
+            <br><br>
+
+            <label for="Envoyer">
+                <button type="submit" name="submit">Envoyer ma demande</button>
+            </label>
+
+
+
+    </form>
+<hr>
+</section>
+
+</main>
+
+</body>
+
+</html>
